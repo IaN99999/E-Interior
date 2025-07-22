@@ -45,7 +45,13 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="carousel-bg" style="background-image: url('{{ asset('images/interior5.jpg') }}');">
+                    <div class="carousel-bg"
+                        style="height: 28rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);background-image: url('{{ asset('images/interior5.jpg') }}');">
                         <div class="overlay position-absolute top-0 start-0 w-100 h-100"
                             style="background-color: rgba(0, 0, 0, 0.5);"></div>
                         <div class="carousel-caption">
@@ -55,7 +61,13 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="carousel-bg" style="background-image: url('{{ asset('images/interior6.jpg') }}');">
+                    <div class="carousel-bg"
+                        style="height: 28rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);background-image: url('{{ asset('images/interior6.jpg') }}');">
                         <div class="overlay position-absolute top-0 start-0 w-100 h-100"
                             style="background-color: rgba(0, 0, 0, 0.5);"></div>
                         <div class="carousel-caption">
