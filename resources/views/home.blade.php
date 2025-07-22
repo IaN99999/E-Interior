@@ -16,8 +16,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="p-4">
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
 
@@ -29,7 +27,13 @@
 
             <div class="carousel-inner rounded-4">
                 <div class="carousel-item active">
-                    <div class="carousel-bg" style="background-image: url('{{ asset('images/interior4.jpg') }}');">
+                    <div class="carousel-bg"
+                        style="height: 28rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);background-image: url('{{ asset('images/interior4.jpg') }}');">
 
                         <div class="overlay position-absolute top-0 start-0 w-100 h-100"
                             style="background-color: rgba(0, 0, 0, 0.5);"></div>
